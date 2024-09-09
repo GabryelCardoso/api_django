@@ -1,0 +1,28 @@
+# .gitignore
+
+# Ignore migrations
+**/migrations/*
+!**/migrations/__init__.py
+
+# Ignore all log files
+*.log
+
+# Ignore database file
+*.sqlite3
+
+# Ignore all bytecode
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+
+# Ignore virtual environment
+venv
+
+# Ignore IDE specific files
+.idea/
+*.swp
+*.swo
+*.swn
+*.pyc
+.DS_Store
